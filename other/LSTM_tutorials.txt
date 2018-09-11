@@ -1,4 +1,0 @@
-1. The Promise of Recurrent Neural Networks for Time Series Forecasting
-https://machinelearningmastery.com/promise-recurrent-neural-networks-time-series-forecasting/
-
-
