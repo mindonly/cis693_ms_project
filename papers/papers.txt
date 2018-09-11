@@ -1,0 +1,6 @@
+Dorffner, G. (1996). Neural Networks for Time Series Processing.
+Gamboa, J. C. B. (2017). Deep Learning for Time-Series Analysis. ArXiv:1701.01887 [Cs]. Retrieved from http://arxiv.org/abs/1701.01887
+Kristjanpoller, W., & Minutolo, M. C. (2015). Gold price volatility: A forecasting approach using the Artificial Neural Network–GARCH model. Expert Systems with Applications, 42(20), 7245–7251. https://doi.org/10.1016/j.eswa.2015.04.058
+Kristjanpoller, W., & Minutolo, M. C. (2016). Forecasting volatility of oil price using an artificial neural network-GARCH model. Expert Systems with Applications, 65, 233–241. https://doi.org/10.1016/j.eswa.2016.08.045
+Sherstinsky, A. (2018). Fundamentals of Recurrent Neural Network (RNN) and Long Short-Term Memory (LSTM) Network. ArXiv:1808.03314 [Cs, Stat]. Retrieved from http://arxiv.org/abs/1808.03314
+
