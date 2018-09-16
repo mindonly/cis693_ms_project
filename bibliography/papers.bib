@@ -1,18 +1,76 @@
 
-@article{sherstinsky_fundamentals_2018,
-	title = {Fundamentals of {Recurrent} {Neural} {Network} ({RNN}) and {Long} {Short}-{Term} {Memory} ({LSTM}) {Network}},
-	url = {http://arxiv.org/abs/1808.03314},
-	abstract = {Because of their effectiveness in broad practical applications, LSTM networks have received a wealth of coverage in scientiﬁc journals, technical blogs, and implementation guides. However, in most articles, the inference formulas for the LSTM network and its parent, RNN, are stated axiomatically, while the training formulas are omitted altogether. In addition, the technique of “unrolling” an RNN is routinely presented without justiﬁcation throughout the literature. The goal of this paper is to explain the essential RNN and LSTM fundamentals in a single document. Drawing from concepts in signal processing, we formally derive the canonical RNN formulation from differential equations. We then propose and prove a precise statement, which yields the RNN unrolling technique. We also review the difﬁculties with training the standard RNN and address them by transforming the RNN into the “Vanilla LSTM”1 network through a series of logical arguments. We provide all equations pertaining to the LSTM system together with detailed descriptions of its constituent entities. Albeit unconventional, our choice of notation and the method for presenting the LSTM system emphasizes ease of understanding. As part of the analysis, we identify new opportunities to enrich the LSTM system and incorporate these extensions into the Vanilla LSTM network, producing the most general LSTM variant to date. The target reader has already been exposed to RNNs and LSTM networks through numerous available resources and is open to an alternative pedagogical approach. A Machine Learning practitioner seeking guidance for implementing our new augmented LSTM model in software for experimentation and research will ﬁnd the insights and derivations in this tutorial valuable as well.},
+@article{malhotra_long_2015,
+	title = {Long {Short} {Term} {Memory} {Networks} for {Anomaly} {Detection} in {Time} {Series}},
+	abstract = {Long Short Term Memory (LSTM) networks have been demonstrated to be particularly useful for learning sequences containing longer term patterns of unknown length, due to their ability to maintain long term memory. Stacking recurrent hidden layers in such networks also enables the learning of higher level temporal features, for faster learning with sparser representations. In this paper, we use stacked LSTM networks for anomaly/fault detection in time series. A network is trained on non-anomalous data and used as a predictor over a number of time steps. The resulting prediction errors are modeled as a multivariate Gaussian distribution, which is used to assess the likelihood of anomalous behavior. The eﬃcacy of this approach is demonstrated on four datasets: ECG, space shuttle, power demand, and multi-sensor engine dataset.},
+	language = {en},
+	journal = {Computational Intelligence},
+	author = {Malhotra, Pankaj and Vig, Lovekesh and Shroﬀ, Gautam and Agarwal, Puneet},
+	year = {2015},
+	pages = {6},
+	file = {Malhotra et al. - 2015 - Long Short Term Memory Networks for Anomaly Detect.pdf:/Users/sanch/Dropbox/f2018/CIS693/cis693_ms_project/papers/Malhotra et al. - 2015 - Long Short Term Memory Networks for Anomaly Detect.pdf:application/pdf}
+}
+
+@article{sutskever_sequence_2014,
+	title = {Sequence to {Sequence} {Learning} with {Neural} {Networks}},
+	url = {http://arxiv.org/abs/1409.3215},
+	abstract = {Deep Neural Networks (DNNs) are powerful models that have achieved excellent performance on difﬁcult learning tasks. Although DNNs work well whenever large labeled training sets are available, they cannot be used to map sequences to sequences. In this paper, we present a general end-to-end approach to sequence learning that makes minimal assumptions on the sequence structure. Our method uses a multilayered Long Short-Term Memory (LSTM) to map the input sequence to a vector of a ﬁxed dimensionality, and then another deep LSTM to decode the target sequence from the vector. Our main result is that on an English to French translation task from the WMT’14 dataset, the translations produced by the LSTM achieve a BLEU score of 34.8 on the entire test set, where the LSTM’s BLEU score was penalized on out-of-vocabulary words. Additionally, the LSTM did not have difﬁculty on long sentences. For comparison, a phrase-based SMT system achieves a BLEU score of 33.3 on the same dataset. When we used the LSTM to rerank the 1000 hypotheses produced by the aforementioned SMT system, its BLEU score increases to 36.5, which is close to the previous best result on this task. The LSTM also learned sensible phrase and sentence representations that are sensitive to word order and are relatively invariant to the active and the passive voice. Finally, we found that reversing the order of the words in all source sentences (but not target sentences) improved the LSTM’s performance markedly, because doing so introduced many short term dependencies between the source and the target sentence which made the optimization problem easier.},
 	language = {en},
 	urldate = {2018-09-11},
-	journal = {arXiv:1808.03314 [cs, stat]},
-	author = {Sherstinsky, Alex},
-	month = aug,
-	year = {2018},
-	note = {arXiv: 1808.03314},
-	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
-	annote = {Comment: 39 pages, 10 figures, 65 references},
-	file = {Sherstinsky - 2018 - Fundamentals of Recurrent Neural Network (RNN) and.pdf:/home/sanch/Dropbox/f2018/cis693/cis693_ms_project/papers/Sherstinsky - 2018 - Fundamentals of Recurrent Neural Network (RNN) and.pdf:application/pdf}
+	journal = {arXiv:1409.3215 [cs]},
+	author = {Sutskever, Ilya and Vinyals, Oriol and Le, Quoc V.},
+	month = sep,
+	year = {2014},
+	note = {arXiv: 1409.3215},
+	keywords = {Computer Science - Computation and Language, Computer Science - Machine Learning},
+	annote = {Comment: 9 pages},
+	file = {Sutskever et al. - 2014 - Sequence to Sequence Learning with Neural Networks.pdf:/Users/sanch/Dropbox/f2018/CIS693/cis693_ms_project/papers/Sutskever et al. - 2014 - Sequence to Sequence Learning with Neural Networks.pdf:application/pdf}
+}
+
+@article{dorffner_neural_1996,
+	title = {Neural {Networks} for {Time} {Series} {Processing}},
+	abstract = {This paper provides an overview over the most common neural network types for
+time series processing, i.e. pattern recognition and forecasting in spatio-temporal
+patterns. Emphasis is put on the relationships between neural network models
+and more classical approaches to time series processing, in particular, forecasting.
+The paper begins with an introduction of the basics of time series processing, and
+discusses feedforward as well as recurrent neural networks, with respect to their
+ability to model non-linear dependencies in spatio-temporal patterns.},
+	author = {Dorffner, Georg},
+	year = {1996},
+	file = {10.1.1.45.5697.pdf:/Users/sanch/Dropbox/f2018/CIS693/cis693_ms_project/papers/10.1.1.45.5697.pdf:application/pdf}
+}
+
+@article{gamboa_deep_2017,
+	title = {Deep {Learning} for {Time}-{Series} {Analysis}},
+	url = {http://arxiv.org/abs/1701.01887},
+	abstract = {In many real-world application, e.g., speech recognition or sleep stage classiﬁcation, data are captured over the course of time, constituting a Time-Series. Time-Series often contain temporal dependencies that cause two otherwise identical points of time to belong to diﬀerent classes or predict diﬀerent behavior. This characteristic generally increases the diﬃculty of analysing them. Existing techniques often depended on hand-crafted features that were expensive to create and required expert knowledge of the ﬁeld. With the advent of Deep Learning new models of unsupervised learning of features for Time-series analysis and forecast have been developed. Such new developments are the topic of this paper: a review of the main Deep Learning techniques is presented, and some applications on Time-Series analysis are summaried. The results make it clear that Deep Learning has a lot to contribute to the ﬁeld.},
+	language = {en},
+	urldate = {2018-09-11},
+	journal = {arXiv:1701.01887 [cs]},
+	author = {Gamboa, John Cristian Borges},
+	month = jan,
+	year = {2017},
+	note = {arXiv: 1701.01887},
+	keywords = {Computer Science - Machine Learning},
+	annote = {Comment: Written as part of the Seminar on Collaborative Intelligence in the TU Kaiserslautern. January 2016},
+	file = {Gamboa - 2017 - Deep Learning for Time-Series Analysis.pdf:/Users/sanch/Dropbox/f2018/CIS693/cis693_ms_project/papers/Gamboa - 2017 - Deep Learning for Time-Series Analysis.pdf:application/pdf}
+}
+
+@article{kristjanpoller_forecasting_2016,
+	title = {Forecasting volatility of oil price using an artificial neural network-{GARCH} model},
+	volume = {65},
+	issn = {09574174},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S0957417416304420},
+	doi = {10.1016/j.eswa.2016.08.045},
+	abstract = {This paper builds on previous research and seeks to determine whether improvements can be achieved in the forecasting of oil price volatility by using a hybrid model and incorporating ﬁnancial variables. The main conclusion is that the hybrid model increases the volatility forecasting precision by 30\% over previous models as measured by a heteroscedasticity-adjusted mean squared error (HMSE) model. Key ﬁnancial variables included in the model that improved the prediction are the Euro/Dollar and Yen/Dollar exchange rates, and the DJIA and FTSE stock market indexes.},
+	language = {en},
+	urldate = {2018-09-11},
+	journal = {Expert Systems with Applications},
+	author = {Kristjanpoller, Werner and Minutolo, Marcel C.},
+	month = dec,
+	year = {2016},
+	pages = {233--241},
+	file = {Kristjanpoller and Minutolo - 2016 - Forecasting volatility of oil price using an artif.pdf:/Users/sanch/Dropbox/f2018/CIS693/cis693_ms_project/papers/Kristjanpoller and Minutolo - 2016 - Forecasting volatility of oil price using an artif.pdf:application/pdf}
 }
 
 @article{kristjanpoller_gold_2015,
@@ -31,79 +89,36 @@
 	month = nov,
 	year = {2015},
 	pages = {7245--7251},
-	file = {Kristjanpoller and Minutolo - 2015 - Gold price volatility A forecasting approach usin.pdf:/home/sanch/Dropbox/f2018/cis693/cis693_ms_project/papers/Kristjanpoller and Minutolo - 2015 - Gold price volatility A forecasting approach usin.pdf:application/pdf}
+	file = {Kristjanpoller and Minutolo - 2015 - Gold price volatility A forecasting approach usin.pdf:/Users/sanch/Dropbox/f2018/CIS693/cis693_ms_project/papers/Kristjanpoller and Minutolo - 2015 - Gold price volatility A forecasting approach usin.pdf:application/pdf}
 }
 
-@article{kristjanpoller_forecasting_2016,
-	title = {Forecasting volatility of oil price using an artificial neural network-{GARCH} model},
-	volume = {65},
-	issn = {09574174},
-	url = {https://linkinghub.elsevier.com/retrieve/pii/S0957417416304420},
-	doi = {10.1016/j.eswa.2016.08.045},
-	abstract = {This paper builds on previous research and seeks to determine whether improvements can be achieved in the forecasting of oil price volatility by using a hybrid model and incorporating ﬁnancial variables. The main conclusion is that the hybrid model increases the volatility forecasting precision by 30\% over previous models as measured by a heteroscedasticity-adjusted mean squared error (HMSE) model. Key ﬁnancial variables included in the model that improved the prediction are the Euro/Dollar and Yen/Dollar exchange rates, and the DJIA and FTSE stock market indexes.},
+@article{sherstinsky_fundamentals_2018,
+	title = {Fundamentals of {Recurrent} {Neural} {Network} ({RNN}) and {Long} {Short}-{Term} {Memory} ({LSTM}) {Network}},
+	url = {http://arxiv.org/abs/1808.03314},
+	abstract = {Because of their effectiveness in broad practical applications, LSTM networks have received a wealth of coverage in scientiﬁc journals, technical blogs, and implementation guides. However, in most articles, the inference formulas for the LSTM network and its parent, RNN, are stated axiomatically, while the training formulas are omitted altogether. In addition, the technique of “unrolling” an RNN is routinely presented without justiﬁcation throughout the literature. The goal of this paper is to explain the essential RNN and LSTM fundamentals in a single document. Drawing from concepts in signal processing, we formally derive the canonical RNN formulation from differential equations. We then propose and prove a precise statement, which yields the RNN unrolling technique. We also review the difﬁculties with training the standard RNN and address them by transforming the RNN into the “Vanilla LSTM”1 network through a series of logical arguments. We provide all equations pertaining to the LSTM system together with detailed descriptions of its constituent entities. Albeit unconventional, our choice of notation and the method for presenting the LSTM system emphasizes ease of understanding. As part of the analysis, we identify new opportunities to enrich the LSTM system and incorporate these extensions into the Vanilla LSTM network, producing the most general LSTM variant to date. The target reader has already been exposed to RNNs and LSTM networks through numerous available resources and is open to an alternative pedagogical approach. A Machine Learning practitioner seeking guidance for implementing our new augmented LSTM model in software for experimentation and research will ﬁnd the insights and derivations in this tutorial valuable as well.},
 	language = {en},
 	urldate = {2018-09-11},
-	journal = {Expert Systems with Applications},
-	author = {Kristjanpoller, Werner and Minutolo, Marcel C.},
-	month = dec,
-	year = {2016},
-	pages = {233--241},
-	file = {Kristjanpoller and Minutolo - 2016 - Forecasting volatility of oil price using an artif.pdf:/home/sanch/Dropbox/f2018/cis693/cis693_ms_project/papers/Kristjanpoller and Minutolo - 2016 - Forecasting volatility of oil price using an artif.pdf:application/pdf}
+	journal = {arXiv:1808.03314 [cs, stat]},
+	author = {Sherstinsky, Alex},
+	month = aug,
+	year = {2018},
+	note = {arXiv: 1808.03314},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+	annote = {Comment: 39 pages, 10 figures, 65 references},
+	file = {Sherstinsky - 2018 - Fundamentals of Recurrent Neural Network (RNN) and.pdf:/Users/sanch/Dropbox/f2018/CIS693/cis693_ms_project/papers/Sherstinsky - 2018 - Fundamentals of Recurrent Neural Network (RNN) and.pdf:application/pdf}
 }
 
-@article{gamboa_deep_2017,
-	title = {Deep {Learning} for {Time}-{Series} {Analysis}},
-	url = {http://arxiv.org/abs/1701.01887},
-	abstract = {In many real-world application, e.g., speech recognition or sleep stage classiﬁcation, data are captured over the course of time, constituting a Time-Series. Time-Series often contain temporal dependencies that cause two otherwise identical points of time to belong to diﬀerent classes or predict diﬀerent behavior. This characteristic generally increases the diﬃculty of analysing them. Existing techniques often depended on hand-crafted features that were expensive to create and required expert knowledge of the ﬁeld. With the advent of Deep Learning new models of unsupervised learning of features for Time-series analysis and forecast have been developed. Such new developments are the topic of this paper: a review of the main Deep Learning techniques is presented, and some applications on Time-Series analysis are summaried. The results make it clear that Deep Learning has a lot to contribute to the ﬁeld.},
+@article{lipton_critical_2015,
+	title = {A {Critical} {Review} of {Recurrent} {Neural} {Networks} for {Sequence} {Learning}},
+	url = {http://arxiv.org/abs/1506.00019},
+	abstract = {Countless learning tasks require dealing with sequential data. Image captioning, speech synthesis, and music generation all require that a model produce outputs that are sequences. In other domains, such as time series prediction, video analysis, and musical information retrieval, a model must learn from inputs that are sequences. Interactive tasks, such as translating natural language, engaging in dialogue, and controlling a robot, often demand both capabilities. Recurrent neural networks (RNNs) are connectionist models that capture the dynamics of sequences via cycles in the network of nodes. Unlike standard feedforward neural networks, recurrent networks retain a state that can represent information from an arbitrarily long context window. Although recurrent neural networks have traditionally been diﬃcult to train, and often contain millions of parameters, recent advances in network architectures, optimization techniques, and parallel computation have enabled successful large-scale learning with them. In recent years, systems based on long short-term memory (LSTM) and bidirectional (BRNN) architectures have demonstrated ground-breaking performance on tasks as varied as image captioning, language translation, and handwriting recognition. In this survey, we review and synthesize the research that over the past three decades ﬁrst yielded and then made practical these powerful learning models. When appropriate, we reconcile conﬂicting notation and nomenclature. Our goal is to provide a selfcontained explication of the state of the art together with a historical perspective and references to primary research.},
 	language = {en},
-	urldate = {2018-09-11},
-	journal = {arXiv:1701.01887 [cs]},
-	author = {Gamboa, John Cristian Borges},
-	month = jan,
-	year = {2017},
-	note = {arXiv: 1701.01887},
-	keywords = {Computer Science - Machine Learning},
-	annote = {Comment: Written as part of the Seminar on Collaborative Intelligence in the TU Kaiserslautern. January 2016},
-	file = {Gamboa - 2017 - Deep Learning for Time-Series Analysis.pdf:/home/sanch/Dropbox/f2018/cis693/cis693_ms_project/papers/Gamboa - 2017 - Deep Learning for Time-Series Analysis.pdf:application/pdf}
-}
-
-@article{dorffner_neural_1996,
-	title = {Neural {Networks} for {Time} {Series} {Processing}},
-	abstract = {This paper provides an overview over the most common neural network types for
-time series processing, i.e. pattern recognition and forecasting in spatio-temporal
-patterns. Emphasis is put on the relationships between neural network models
-and more classical approaches to time series processing, in particular, forecasting.
-The paper begins with an introduction of the basics of time series processing, and
-discusses feedforward as well as recurrent neural networks, with respect to their
-ability to model non-linear dependencies in spatio-temporal patterns.},
-	author = {Dorffner, Georg},
-	year = {1996},
-	file = {10.1.1.45.5697.pdf:/home/sanch/Dropbox/f2018/cis693/cis693_ms_project/papers/10.1.1.45.5697.pdf:application/pdf}
-}
-
-@article{sutskever_sequence_2014,
-	title = {Sequence to {Sequence} {Learning} with {Neural} {Networks}},
-	url = {http://arxiv.org/abs/1409.3215},
-	abstract = {Deep Neural Networks (DNNs) are powerful models that have achieved excellent performance on difﬁcult learning tasks. Although DNNs work well whenever large labeled training sets are available, they cannot be used to map sequences to sequences. In this paper, we present a general end-to-end approach to sequence learning that makes minimal assumptions on the sequence structure. Our method uses a multilayered Long Short-Term Memory (LSTM) to map the input sequence to a vector of a ﬁxed dimensionality, and then another deep LSTM to decode the target sequence from the vector. Our main result is that on an English to French translation task from the WMT’14 dataset, the translations produced by the LSTM achieve a BLEU score of 34.8 on the entire test set, where the LSTM’s BLEU score was penalized on out-of-vocabulary words. Additionally, the LSTM did not have difﬁculty on long sentences. For comparison, a phrase-based SMT system achieves a BLEU score of 33.3 on the same dataset. When we used the LSTM to rerank the 1000 hypotheses produced by the aforementioned SMT system, its BLEU score increases to 36.5, which is close to the previous best result on this task. The LSTM also learned sensible phrase and sentence representations that are sensitive to word order and are relatively invariant to the active and the passive voice. Finally, we found that reversing the order of the words in all source sentences (but not target sentences) improved the LSTM’s performance markedly, because doing so introduced many short term dependencies between the source and the target sentence which made the optimization problem easier.},
-	language = {en},
-	urldate = {2018-09-11},
-	journal = {arXiv:1409.3215 [cs]},
-	author = {Sutskever, Ilya and Vinyals, Oriol and Le, Quoc V.},
-	month = sep,
-	year = {2014},
-	note = {arXiv: 1409.3215},
-	keywords = {Computer Science - Machine Learning, Computer Science - Computation and Language},
-	annote = {Comment: 9 pages},
-	file = {Sutskever et al. - 2014 - Sequence to Sequence Learning with Neural Networks.pdf:/home/sanch/Dropbox/f2018/cis693/cis693_ms_project/papers/Sutskever et al. - 2014 - Sequence to Sequence Learning with Neural Networks.pdf:application/pdf}
-}
-
-@article{malhotra_long_2015,
-	title = {Long {Short} {Term} {Memory} {Networks} for {Anomaly} {Detection} in {Time} {Series}},
-	abstract = {Long Short Term Memory (LSTM) networks have been demonstrated to be particularly useful for learning sequences containing longer term patterns of unknown length, due to their ability to maintain long term memory. Stacking recurrent hidden layers in such networks also enables the learning of higher level temporal features, for faster learning with sparser representations. In this paper, we use stacked LSTM networks for anomaly/fault detection in time series. A network is trained on non-anomalous data and used as a predictor over a number of time steps. The resulting prediction errors are modeled as a multivariate Gaussian distribution, which is used to assess the likelihood of anomalous behavior. The eﬃcacy of this approach is demonstrated on four datasets: ECG, space shuttle, power demand, and multi-sensor engine dataset.},
-	language = {en},
-	journal = {Computational Intelligence},
-	author = {Malhotra, Pankaj and Vig, Lovekesh and Shroﬀ, Gautam and Agarwal, Puneet},
+	urldate = {2018-09-16},
+	journal = {arXiv:1506.00019 [cs]},
+	author = {Lipton, Zachary C. and Berkowitz, John and Elkan, Charles},
+	month = may,
 	year = {2015},
-	pages = {6},
-	file = {Malhotra et al. - 2015 - Long Short Term Memory Networks for Anomaly Detect.pdf:/home/sanch/Dropbox/f2018/cis693/cis693_ms_project/papers/Malhotra et al. - 2015 - Long Short Term Memory Networks for Anomaly Detect.pdf:application/pdf}
+	note = {arXiv: 1506.00019},
+	keywords = {Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing},
+	file = {Lipton et al. - 2015 - A Critical Review of Recurrent Neural Networks for.pdf:/Users/sanch/Dropbox/f2018/CIS693/cis693_ms_project/papers/Lipton et al. - 2015 - A Critical Review of Recurrent Neural Networks for.pdf:application/pdf}
 }
